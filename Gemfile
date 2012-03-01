@@ -47,7 +47,4 @@ group :test do
   gem 'factory_girl_rails', '1.0'
 end
 
-configure :production do
-  require 'newrelic_rpm'
-end
 
