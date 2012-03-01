@@ -8,7 +8,7 @@ gem 'rails', '3.0.5'
 #gem 'sqlite3'
 gem 'pg', '0.10.1'
 
-#gem "gravatar_image_tag", "~> 1.0.0"
+gem "gravatar_image_tag", "~> 1.0.0"
 
 
 # Use unicorn as the web server

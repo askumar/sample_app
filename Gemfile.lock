@@ -43,6 +43,7 @@ GEM
     factory_girl_rails (1.0)
       factory_girl (~> 1.3)
       rails (>= 3.0.0.beta4)
+    gravatar_image_tag (1.0.0)
     highline (1.6.11)
     i18n (0.6.0)
     mail (2.2.19)
@@ -110,6 +111,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   factory_girl_rails (= 1.0)
+  gravatar_image_tag (~> 1.0.0)
   pg (= 0.10.1)
   rails (= 3.0.5)
   rspec (= 2.5.0)
