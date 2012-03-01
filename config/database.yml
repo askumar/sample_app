@@ -20,7 +20,8 @@
 #   database: db/production.sqlite3
 #   pool: 5
 #   timeout: 5000
-#   
+#
+   
 development:
   adapter: postgresql
   database: sample_app
