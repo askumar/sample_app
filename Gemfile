@@ -9,7 +9,7 @@ gem 'rails', '3.0.5'
 gem 'pg', '0.10.1'
 
 gem "gravatar_image_tag", "~> 1.0.0"
-
+gem 'newrelic_rpm'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -45,5 +45,9 @@ group :test do
   gem 'webrat', '0.7.1'
 	gem 'spork', '0.9.0.rc4'
   gem 'factory_girl_rails', '1.0'
+end
+
+configure :production do
+  require 'newrelic_rpm'
 end
 
